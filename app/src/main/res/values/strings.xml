@@ -1,3 +1,8 @@
 <resources>
     <string name="app_name">Citrus</string>
+    <string name="logo_of_citrus_dynamics">Logo of Citrus Dynamics</string>
+    <string name="existing_users_may_sign_in">Existing users may sign in</string>
+    <string name="sign_in">sign in</string>
+    <string name="sign_up_for_a_free_citrus_user_account">Sign up for a free Citrus™ user account</string>
+    <string name="sign_up">sign up</string>
 </resources>

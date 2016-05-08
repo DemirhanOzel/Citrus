@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="fill_parent"
     android:layout_height="match_parent"
@@ -8,12 +9,15 @@
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
     tools:context="net.citrusdynamics.citrus.MainActivity"
+    android:theme="@style/Theme.AppCompat.Light.DarkActionBar"
     >
+
+
 
     <Button
         android:layout_width="fill_parent"
         android:layout_height="50dp"
-        android:text="sign up"
+        android:text="@string/sign_up"
         android:id="@+id/signup"
         android:layout_below="@+id/signintext"
         android:layout_marginTop="30dp"
@@ -24,7 +28,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:textAppearance="?android:attr/textAppearanceMedium"
-        android:text="Sign up for a free Citrus™ user account"
+        android:text="@string/sign_up_for_a_free_citrus_user_account"
         android:id="@+id/signuptext"
         android:textColor="#000000"
         android:layout_marginTop="26dp"
@@ -35,7 +39,7 @@
     <Button
         android:layout_width="fill_parent"
         android:layout_height="50dp"
-        android:text="sign in"
+        android:text="@string/sign_in"
         android:id="@+id/signin"
         android:layout_below="@+id/citruslogo"
         android:layout_centerHorizontal="true"
@@ -50,7 +54,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:textAppearance="?android:attr/textAppearanceMedium"
-        android:text="Existing users may sign in"
+        android:text="@string/existing_users_may_sign_in"
         android:id="@+id/signintext"
         android:textColor="#000000"
         android:layout_below="@id/signin"
@@ -65,7 +69,8 @@
         android:layout_height="300dp"
         android:layout_alignParentTop="true"
         android:layout_centerHorizontal="true"
-        android:contentDescription="Logo of Citrus Dynamics" />
+        android:contentDescription="@string/logo_of_citrus_dynamics" />
 
 
 </RelativeLayout>
+
