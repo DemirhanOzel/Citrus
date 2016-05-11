@@ -44,7 +44,7 @@
         android:layout_below="@+id/citruslogo"
         android:layout_centerHorizontal="true"
         android:layout_marginTop="30dp"
-        android:enabled="false"
+
         android:textColor="#000000"
         />
 
